@@ -48,4 +48,4 @@ INSERT INTO syntax_practice (username, city, transactions_completed, transaction
 --    and have completed fewer than 5 transactions.
 DELETE FROM syntax_practice
 WHERE city='miami' or city='phoenix'
-AND transactions_attempted<5;
+AND transactions_attempted<5;   
